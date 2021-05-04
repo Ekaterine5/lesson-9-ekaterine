@@ -7,8 +7,14 @@
     }
 }
     
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
     .container {
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-wraper,
+    .right-block {
+        margin-top: 30px;
+    }
     }
 }

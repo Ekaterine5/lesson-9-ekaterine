@@ -91,9 +91,9 @@
     margin-bottom: 20px;
 }
  .text-wraper {
-     max-width: 444px;
-     width: 100%;
-     height: 388px;
+    max-width: 444px;
+    width: 100%;
+    height: 388px;
     margin-top: 128px;
  }
 
@@ -108,4 +108,14 @@
      display: flex;
      justify-content: space-between;
      margin-bottom: 16px;
+    
+ }
+ .left-image,
+ .right-image {
+     max-width: 260px;
+     width: 100%;
+ }
+ .center-image {
+     max-width: 536px;
+     width: 100%;
  }
