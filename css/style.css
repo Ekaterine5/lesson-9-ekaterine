@@ -59,8 +59,7 @@
     justify-content: space-around;
     max-width: 1366px;
     width: 100%;
-    margin: 0 auto;
-    background-color: aquamarine;
+    margin: 0 auto;  
 }
 
 .button {
@@ -119,3 +118,33 @@
      max-width: 536px;
      width: 100%;
  }
+ .container2 {
+   
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto; 
+    
+}
+.section2-title1 {
+    color: #5863F8;
+    font-size: 14px;
+    margin-left: 139px;
+    
+}
+.section2-title2 {
+    color: #FFFFFF;
+    font-size: 42px;
+    width: 376px;
+    margin-left: 139px;
+}
+.banner {
+    max-width: 1366px;
+    width: 100%;
+    height: 612px;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
+    /* margin: 0 auto; */
+    margin-top: 90px;
+    position: relative;
+}
