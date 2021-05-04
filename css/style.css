@@ -57,8 +57,10 @@
 .container {
     display: flex;
     justify-content: space-around;
-    width: 1366px;
+    max-width: 1366px;
+    width: 100%;
     margin: 0 auto;
+    background-color: aquamarine;
 }
 
 .button {
@@ -78,7 +80,8 @@
 }
 
 .title-text {
-    width: 306px;
+    max-width: 306px;
+    width: 100%;
     height: 112px;
     font-size: 42px;
 }
@@ -88,13 +91,15 @@
     margin-bottom: 20px;
 }
  .text-wraper {
-     width: 444px;
+     max-width: 444px;
+     width: 100%;
      height: 388px;
     margin-top: 128px;
  }
 
  .right-block {
-     width: 536px;
+     max-width: 536px;
+     width: 100%;
      height: 461px;
      margin-top: 90px;
      margin-bottom: 90px;
@@ -102,4 +107,5 @@
  .image-wraper {
      display: flex;
      justify-content: space-between;
+     margin-bottom: 16px;
  }
