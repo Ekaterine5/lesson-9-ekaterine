@@ -1,0 +1,14 @@
+@media (max-width: 1000px) {
+    .navigation {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+}
+    
+@media (max-width: 1025px) {
+    .container {
+        flex-wrap: wrap;
+    }
+}
