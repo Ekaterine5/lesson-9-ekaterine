@@ -15,9 +15,9 @@
     .text-wraper,
     .right-block {
         margin-top: 30px;
-    }
-    
+    }  
 }
+
 
 @media (max-width: 570px) {
     .image-wraper {
@@ -27,5 +27,9 @@
     .right-image {
         margin-top: 15px;
     }
-    
+}
+@media (max-width: 1200px){
+    .block-1 {
+        margin-top: 30px;
+} 
 }
